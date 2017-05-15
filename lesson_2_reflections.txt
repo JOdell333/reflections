@@ -1,0 +1,12 @@
+What happens when you initalize a repositiory? Why do you need it?
+
+* A git repository is where all of your commits are saved. When you 
+* run the code git init the repositiory is created but saved in a 
+* hidden file. To see this file (or any hidden file) run the command
+* ls -a. 
+
+How is the staging area different from the working directory and repository? What value do you think it offers?
+
+* The staging area is where you choose what files to commit. You can 
+* add files that you want to add. Once these files and a comment is 
+* added the commit will be saved to the repository. 
