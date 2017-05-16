@@ -28,4 +28,12 @@ What are some situations when branches would be helpul in keeping your history o
 * the branch that you want. The main branch of every program is called
 * master. DO NOT FORGET!!
 
+How do the diagams help you visualizze the branch structre?
 
+* It is easy to see what commits are reachable or not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+* It adds all of the changes added to a new branch. Use "git merge 
+* 'branch_name'" to add merge a the branch you are in with the branch
+* that you specify. 
