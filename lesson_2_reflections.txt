@@ -37,3 +37,11 @@ What is the result of merging two branches together? Why do we represent it in t
 * It adds all of the changes added to a new branch. Use "git merge 
 * 'branch_name'" to add merge a the branch you are in with the branch
 * that you specify. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+* It is actually very good that Git has automatic merging. Git will 
+* always know when to automatically merge items but will also 
+* recognize when it is necessay to do manual merges. (SIDE NOTE) If
+* you want to merge a branch to master but not change master, do the
+* merge from the wanted branch and not master, you will be safe.
