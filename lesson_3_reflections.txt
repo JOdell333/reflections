@@ -1,1 +1,6 @@
+When would you want to use a remote repository rather than keeping all of your work local?
 
+* You would want to use a remote repository when you are either working with many people or
+* expect to work on multiple desktops. To add a remote use "git remote add 'link_to_github'"
+* To check your remote use "git remote." To push commits to a remote use "git push remote_name
+* branch_name."
