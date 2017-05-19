@@ -1,6 +1,36 @@
 When would you want to use a remote repository rather than keeping all of your work local?
 
-* You would want to use a remote repository when you are either working with many people or
-* expect to work on multiple desktops. To add a remote use "git remote add 'link_to_github'"
-* To check your remote use "git remote." To push commits to a remote use "git push remote_name
+* You would want to use a remote repository when you are either working 
+* with many people or expect to work on multiple desktops. To add a 
+* remote use "git remote add 'link_to_github'" To check your remote use * "git remote." To push commits to a remote use "git push remote_name
 * branch_name."
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+* When you use "git pull origin branch_name" you are always going to get
+* the exact same input to GitHub. Manual input always allows for human
+* error.
+
+Describe the differecnces between forks, clones, and branches. When would you use one instead of another?
+
+* Forks are used to take code on GitHub from others and work on it 
+* without changing the original code. Clones are the code taken off
+* GitHub and used on a local device. Use "git remote -v" to check the
+* current remote before pushing to GitHub from your computer.
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+* You will always know if you are ahead of your code on GitHub. If you
+* know that your code on GitHub is differnet than your local code use
+* "git fetch origin." This will create a different path for 
+* origin/master and the master branch. Use git diff or git merge to fix
+* the differences in the code and commit the changes. Use git log and 
+* git status to keep track of necessay changes. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+* You can also merge files on GitHub. To do this use the comand "git 
+* push origin branch_name." This will create a branch on GitHub. In
+* GitHub use the pull request button to add merge your file to the 
+* master branch. You can veiw the changes by looking at the commits.
